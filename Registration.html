@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+</head>
+<body>
+<div class="card-reg">
+    <form>
+        <div class="links-container">
+            <a href="#">Login</a>
+            <div class="vertical-line"></div>
+            <a href="#">Register</a>
+        </div>
+        <p class="text">Enter your email and password to register.</p>
+        <div class="input-fields">
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="email" name="email" placeholder="Enter your email address" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+        </div>
+        <button type="submit" class="btn-submit">Register</button>
+    </form>
+
+    <div class="reg-with">
+        <div>
+            <div class="line"></div>
+            <p>Or register with</p>
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="btn-container">
+        <button class="btn-icon">
+            <img src="./img/google-logo.svg" alt="Google Logo" class="logo"> Continue with Google
+        </button>
+        <button class="btn-icon">
+            <img src="./img/facebook_logo.svg" alt="Facebook Logo" class="logo">Continue with Facebook
+        </button>
+    </div>
+</div>
+</body>
+</html>
